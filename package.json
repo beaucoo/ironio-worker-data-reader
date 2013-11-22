@@ -1,0 +1,53 @@
+{
+    "name": "ironio-worker-data-reader",
+    "version": "2.0.0",
+    "description": "Read config or payload files in an Iron.io worker",
+    "main": "index.js",
+    "keywords":[
+        "ironio",
+        "iron.io",
+        "worker",
+        "config",
+        "payload"
+    ],
+    "engines":[
+        "node"
+    ],
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "make test"
+    },
+    "repository": "",
+    "author": "Rick Cotter",
+    "license": "Copyright BeauCoo Technologies Inc. 2013",
+    "readmeFilename": "README.md",
+    "devDependencies": {
+        "must": "~0.9.0",
+        "mocha": "~1.x.x",
+        "rewire": "~1.x.x"
+    },
+    "dependencies": {},
+    "scripts":{
+        "test":"mocha test --require must --reporter spec --recursive"
+    },
+    "contributors":[
+        {
+            "name":"BeauCoo",
+            "email":"info@beaucoo.com",
+            "url":"http://beaucoo.com/"
+        },
+        {
+            "name":"Rick Cotter",
+            "email":"rcotter@gmail.com"
+        }
+    ],
+    "bugs":{
+        "url":"https://github.com/beaucoo/ironio-worker-data-reader/issues"
+    },
+    "repository":{
+        "type":"git",
+        "url":"https://github.com/beaucoo/ironio-worker-data-reader.git"
+    }
+}
